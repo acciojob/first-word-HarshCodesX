@@ -4,7 +4,7 @@ function firstWord(s) {
     return "";
   }
   let res = s.split(" ");
-  return res[0];
+  return String(res[0]);
 }
 
 // Do not change the code below
