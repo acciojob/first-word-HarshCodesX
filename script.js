@@ -1,7 +1,7 @@
 function firstWord(s) {
   // your code here
 	if(s == ""){
-    return "";
+    return "''";
   }
   let res = s.split(" ");
   return String(res[0]);
